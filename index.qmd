@@ -1,0 +1,19 @@
+---
+title: "R Primers for ISEM"
+toc: false
+---
+
+A version of the old RStudio/Posit Primers, ported to Quarto and webR by [Andrew Heiss](https://www.andrewheiss.com/)
+and adjusted to suit the needs of [*Introduction to Structural Equation Modeling*](https://kylemlang.com/isem) by [Kyle
+M. Lang](https://kylemlang.com).
+
+## License {.appendix}
+
+The original primers were developed by the RStudio/Posit Education Team and made [open source on
+GitHub](https://github.com/rstudio-education/primers). Following the original license, these tutorials are licensed
+under the Creative Commons Attribution-ShareAlike 4.0 License (CC BY-SA 4.0).
+
+The primers are derived from the book [*R for Data Science*](https://r4ds.had.co.nz/) from O'Reilly Media, Inc.
+Copyright © 2017 Garrett Grolemund, Hadley Wickham. Used with permission.
+
+[See here for the full license.](https://github.com/kylelang/r-primers/blob/tcsm/LICENSE.md)

@@ -1,0 +1,54 @@
+project:
+  type: website
+  execute-dir: file
+  output-dir: docs
+  preview:
+    port: 4200
+
+execute:
+  freeze: auto # Re-render only when source changes
+
+website:
+  title: "R Primers for ISEM"
+  bread-crumbs: false
+  repo-url: "https://github.com/kylelang/isem-r-primers"
+  repo-branch: main
+  repo-actions: [source, issue]
+  navbar:
+    pinned: true
+    left:
+      - visualization.qmd
+      - transformation.qmd
+    right:
+      - about.qmd
+      - icon: github
+        aria-label: github
+        href: https://github.com/kylelang/isem-r-primers/tree/main
+  sidebar: 
+    style: "docked"
+    collapse-level: 2
+    contents: 
+      - section: visualization.qmd
+        contents:
+        - auto: "visualize-data/01-visualization-basics"
+        - auto: "visualize-data/02-bar-charts"
+        - auto: "visualize-data/03-histograms"
+        - auto: "visualize-data/04-boxplots"
+        - auto: "visualize-data/05-scatterplots"
+      - section: transformation.qmd
+        contents:
+        - auto: "transform-data/01-tibbles"
+        - auto: "transform-data/02-isolating"
+        - auto: "transform-data/03-deriving"
+
+format:
+  html:
+    theme: 
+      - zephyr
+      - html/custom.scss
+    toc: true
+    toc-depth: 3
+    knitr:
+      opts_chunk:
+        dev: "ragg_png"
+        dpi: 300

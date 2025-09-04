@@ -1,0 +1,17 @@
+{
+  "hash": "251aa54735abfec251ab473aee60e34d",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"In-Class Exercises\"\nsidebar: false\nengine: knitr\nfilters:\n  - webr\nwebr:\n  cell-options:\n    editor-font-scale: 0.85\n    fig-width: 6\n    fig-height: 3.7\n    out-width: \"70%\"\n---\n\n\n\n\n::: {.callout-note}\n## Attribution Note\n\nThese exercises have been shamelessly copied from the R-Primers project created by [Andrew\nHeiss](https://www.andrewheiss.com/). The original version of Heiss' website is available\n[here](https://r-primers.andrewheiss.com/index.html).\n\nYou can read Heiss' explanation of how he ported the old *Posit Primers* into the *R-Primers* project in the\n[About](/about.html) section. :::\n\n\n\n\n\n\n\n\n\nThe in-class portion of this week's practical exercises will extend the introduction that you received in the At-Home\nExercises by exploring techniques for visualizing and transforming data.\n\n##\n\n\n\n\n::: {.cell layout-align=\"center\"}\n<section id=\"buttons\">\n  <a id=\"beginButton\" class=\"btn btn-danger\" href=\"basics/01-visualization-basics/index.html\" role=\"button\">\n  Begin Exercises\n  </a>\n</section>\n:::\n",
+    "supporting": [
+      "class_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

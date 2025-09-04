@@ -1,0 +1,48 @@
+---
+title: "Data Transformation"
+sidebar: false
+engine: knitr
+filters:
+  - webr
+webr:
+  cell-options:
+    editor-font-scale: 0.85
+    fig-width: 6
+    fig-height: 3.7
+    out-width: "70%"
+---
+
+::: {.callout-note}
+## Attribution Note
+
+These exercises have been shamelessly copied from the R-Primers project created by [Andrew
+Heiss](https://www.andrewheiss.com/). The original version of Heiss' website is available
+[here](https://r-primers.andrewheiss.com/index.html).
+
+You can read Heiss' explanation of how he ported the old *Posit Primers* into the *R-Primers* project in the
+[About](/about.html) section.
+:::
+
+```{r include = FALSE}
+knitr::opts_chunk$set(
+  fig.width = 6,
+  fig.height = 6 * 0.618,
+  fig.retina = 3,
+  dev = "ragg_png",
+  fig.align = "center",
+  out.width = "70%"
+)
+
+source(here::here("R", "helpers.R"))
+```
+
+In the second part of this week's practical exercises we will explore techniques transforming data in R.
+
+##
+
+```{r}
+#| echo: false
+#| results: asis
+
+begin_buttons("transform-data/01-tibbles/index.html")
+```

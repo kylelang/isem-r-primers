@@ -1,0 +1,17 @@
+{
+  "hash": "b988bbb39973f0de89fd44f71a68a7c1",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Boxplots and Counts\"\nformat:\n  html: \n    toc: false\n    section-divs: true\n    include-after-body: \n      - text: |\n          <script src=\"/js/progressive-reveal.js\"></script>\n---\n\n\n\n\n\n\n**Boxplots** display the relationship between a continuous variable and a categorical variable. **Count** plots display the relationship between two categorical variables. In this tutorial, you will learn how to use both. You will learn how to:\n\n* Make and interpret boxplots\n* Rotate boxplots by flipping the coordinate system of your plot\n* Use *violin* plots and *dotplots*, two geoms that are similar to boxplots\n* Make and interpret count plots\n\nThe tutorial is adapted from [_R for Data Science_](https://r4ds.had.co.nz/) by Hadley Wickham and Garrett Grolemund, published by O’Reilly Media, Inc., 2016, ISBN: 9781491910399. You can purchase the book at [shop.oreilly.com](http://shop.oreilly.com/product/0636920034407.do).\n\nThe tutorial uses the {ggplot2} and {dplyr} packages, which have been pre-loaded for your convenience.\n\n\n##\n\n\n\n\n::: {.cell layout-align=\"center\"}\n<section id=\"buttons\">\n  <a id=\"firstButton\" class=\"btn btn-primary float-start\" href=\"01-boxplots.html\" role=\"button\">\n  Continue\n  </a>\n</section>\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
