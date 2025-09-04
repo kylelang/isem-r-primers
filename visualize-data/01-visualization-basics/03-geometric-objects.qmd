@@ -133,8 +133,13 @@ The best way to understand the Grammar of Graphics is to see it explained in act
 
 ##
 
+That's it for the general principles of data visualization. Now we're ready to dive into some specific examples. We'll
+start with a very useful type of visualization for discrete data: *bar charts*.
+
 ```{r}
 #| echo: false
 #| results: asis
-create_buttons("04-ggplot2-package.html")
+
+# create_buttons(here::here("visualize-data", "02-bar-charts", "index.html"))
+create_buttons("/visualize-data/02-bar-charts/index.html")
 ```

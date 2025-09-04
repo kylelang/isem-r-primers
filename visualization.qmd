@@ -43,5 +43,6 @@ In the first part of this week's practical exercises we will cover some techniqu
 ```{r}
 #| echo: false
 #| results: asis
-begin_buttons("basics/01-visualization-basics/index.html")
+
+begin_buttons("/visualize-data/01-visualization-basics/index.html")
 ```

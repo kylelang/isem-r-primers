@@ -44,5 +44,5 @@ In the second part of this week's practical exercises we will explore techniques
 #| echo: false
 #| results: asis
 
-begin_buttons("transform-data/01-tibbles/index.html")
+begin_buttons("/transform-data/01-tibbles/index.html")
 ```

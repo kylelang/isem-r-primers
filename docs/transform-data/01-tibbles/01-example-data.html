@@ -391,7 +391,7 @@ globalThis.qwebrCustomizedWebROptions = {
 };
 
 // Store cell data
-globalThis.qwebrCellDetails = [{"options":{"editor-max-height":"","context":"interactive","editor-font-scale":"0.85","editor-quick-suggestions":"false","out-height":"","fig-cap":"","label":"unnamed-chunk-1","comment":"","editor-word-wrap":"true","warning":"true","output":"true","message":"true","out-width":"70%","results":"markup","dpi":72,"classes":"","fig-width":"6","read-only":"false","fig-height":"3.7","autorun":"false"},"code":"","id":1}];
+globalThis.qwebrCellDetails = [{"id":1,"options":{"fig-height":"3.7","read-only":"false","editor-max-height":"","label":"unnamed-chunk-1","warning":"true","fig-cap":"","autorun":"false","results":"markup","out-width":"70%","classes":"","output":"true","editor-font-scale":"0.85","comment":"","editor-word-wrap":"true","fig-width":"6","out-height":"","editor-quick-suggestions":"false","context":"interactive","dpi":72,"message":"true"},"code":""}];
 
 </script>
 <script type="module">
@@ -1624,7 +1624,7 @@ globalThis.qwebrExecuteCode = async function (
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/kylelang/r-primers/tree/isem"> <i class="bi bi-github" role="img" aria-label="github">
+    <a class="nav-link" href="https://github.com/kylelang/isem-r-primers/tree/main"> <i class="bi bi-github" role="img" aria-label="github">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -1663,7 +1663,7 @@ globalThis.qwebrExecuteCode = async function (
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../visualize-data/01-visualization-basics/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data Visualization</span></a>
+ <span class="menu-text">Fundamentals</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -1685,12 +1685,6 @@ globalThis.qwebrExecuteCode = async function (
   <div class="sidebar-item-container"> 
   <a href="../../visualize-data/01-visualization-basics/03-geometric-objects.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Geometric Objects</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../visualize-data/01-visualization-basics/04-ggplot2-package.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">The ggplot2 Package</span></a>
   </div>
 </li>
       </ul>
@@ -2254,7 +2248,7 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 <div class="cell" data-layout-align="center">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>babynames</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-error">
-<pre><code>Error in eval(expr, envir, enclos): object 'babynames' not found</code></pre>
+<pre><code>Error: object 'babynames' not found</code></pre>
 </div>
 </div>
 <p>To load the {babynames} package, you would run the command <code>library(babynames)</code>. After you load a package, R will be able to find its contents <em>until you close R</em>. The next time you open R, you will need to reload the package if you wish to use it again.</p>
@@ -2739,7 +2733,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/kylelang/r-primers/blob/isem/transform-data/01-tibbles/01-example-data.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/kylelang/r-primers/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer><script src="../../js/progressive-reveal.js"></script>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/kylelang/isem-r-primers/blob/main/transform-data/01-tibbles/01-example-data.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/kylelang/isem-r-primers/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer><script src="../../js/progressive-reveal.js"></script>
 <script type="module">
 // Handle cell initialization initialization
 qwebrCellDetails.map(
