@@ -39,6 +39,22 @@ library(checkdown)
 source(here::here("R", "helpers.R"))
 ```
 
+### Introduction {.no-hide}
+
+Watch the first part of the following video (up to approximately 5:40) for a nice introduction to bar charts in GGPlot.
+
+```{=html}
+<div class="ratio ratio-4x3">
+  <iframe
+    src="https://www.youtube.com/embed/MR7Zjpd1Mxo?si=1h_8Og8DrNAjAYOC"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+  </iframe>
+</div>
+```
+
 ### How to make a bar chart {.no-hide}
 
 To make a bar chart with {ggplot2}, add `geom_bar()` to the [ggplot2 template](/visualize-data/01-visualization-basics/01-general-ideas.qmd). For example, the code below plots a bar chart of the `cut` variable in the `diamonds` dataset, which comes with {ggplot2}.

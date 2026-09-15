@@ -127,7 +127,13 @@ The best way to understand the Grammar of Graphics is to see it explained in act
 
 ```{=html}
 <div class="ratio ratio-4x3">
-<iframe src="https://player.vimeo.com/video/223812632" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+  <iframe
+    src="https://www.youtube.com/embed/JkdBxGQySmM?si=62kXRSVcfY0WepO2"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+  </iframe>
 </div>
 ```
 

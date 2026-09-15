@@ -167,7 +167,7 @@
     "href": "visualize-data/04-boxplots/01-boxplots.html",
     "title": "Boxplots",
     "section": "",
-    "text": "Watch this video:",
+    "text": "Watch the first part of the following video (up to approximately 8:15) for a nice introduction to boxplots in GGPlot.",
     "crumbs": [
       "Data Visualization",
       "Boxplots and Counts",
@@ -261,7 +261,7 @@
     "href": "visualize-data/02-bar-charts/01-bar-charts.html",
     "title": "Bar Charts",
     "section": "",
-    "text": "To make a bar chart with {ggplot2}, add geom_bar() to the ggplot2 template. For example, the code below plots a bar chart of the cut variable in the diamonds dataset, which comes with {ggplot2}.\n\nggplot(data = diamonds) +\n  geom_bar(mapping = aes(x = cut))",
+    "text": "Watch the first part of the following video (up to approximately 5:40) for a nice introduction to bar charts in GGPlot.",
     "crumbs": [
       "Data Visualization",
       "Bar Charts",
@@ -936,7 +936,7 @@
     "href": "visualize-data/03-histograms/01-histograms.html",
     "title": "Histograms",
     "section": "",
-    "text": "Watch this video:",
+    "text": "Watch the second part of the following video (beginning at approximately 5:42) for a nice introduction to histograms in GGPlot.",
     "crumbs": [
       "Data Visualization",
       "Histograms",
