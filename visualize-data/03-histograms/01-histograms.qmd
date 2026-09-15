@@ -40,11 +40,18 @@ source(here::here("R", "helpers.R"))
 
 ### Introduction {.no-hide}
 
-Watch [this video](https://vimeo.com/221607341):
+Watch the second part of the following video (beginning at approximately 5:42) for a nice introduction to histograms in
+GGPlot.
 
 ```{=html}
 <div class="ratio ratio-4x3">
-<iframe src="https://player.vimeo.com/video/221607341" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+  <iframe
+    src="https://www.youtube.com/embed/MR7Zjpd1Mxo?si=Sbpp0mtXuRKhH6FY&amp;start=342"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+  </iframe>
 </div>
 ```
 

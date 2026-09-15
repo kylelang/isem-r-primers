@@ -40,11 +40,17 @@ source(here::here("R", "helpers.R"))
 
 ### Introduction {.no-hide}
 
-Watch [this video](https://vimeo.com/222358034):
+Watch the first part of the following video (up to approximately 8:15) for a nice introduction to boxplots in GGPlot.
 
 ```{=html}
 <div class="ratio ratio-4x3">
-<iframe src="https://player.vimeo.com/video/222358034" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+  <iframe
+    src="https://www.youtube.com/embed/1w26Pq-cGFQ?si=CCgPpNh8b5usubhB"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+  </iframe>
 </div>
 ```
 
