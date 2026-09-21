@@ -12,8 +12,6 @@ engine: knitr
 filters:
   - webr
 webr:
-  repos:
-    - https://slowkow.r-universe.dev
   packages:
     - ggplot2
     - dplyr
